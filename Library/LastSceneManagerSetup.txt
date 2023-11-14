@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Scenes/RPG-Character.unity
+- path: Assets/Boss Arena/Arena.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
