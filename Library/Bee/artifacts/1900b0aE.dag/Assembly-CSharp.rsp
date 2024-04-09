@@ -356,6 +356,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Dynamic Flickering Light/FlickeringLight.cs"
+"Assets/EndGame.cs"
 "Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/ActionHandler.cs"
 "Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/BaseActionHandler.cs"
 "Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/Character/Attack.cs"
