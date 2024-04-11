@@ -108,6 +108,8 @@ namespace RPGCharacterAnims
 			transform.rotation = Quaternion.Slerp(transform.rotation,
 				Quaternion.LookRotation(cameraTargetOffset - transform.position),
 				Time.deltaTime * smoothing);
+			{Debug.Log(offset);}
+			{Debug.Log(lastPosition);}
 		}
 
 		private void CameraFollow()
