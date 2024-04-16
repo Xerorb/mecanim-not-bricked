@@ -18,10 +18,10 @@ public class EndGame : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer > timeLimit)
+        if (timer > timeLimit)  
         {
             //Do stuff here
-            Debug.Log ("Player loses!");
+            Debug.Log ("countdown over!");
             enabled = false;
         }
         else
