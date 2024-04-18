@@ -40,16 +40,26 @@ public class EnemyPathfinderAI : MonoBehaviour
         {
             myRender.material.color = Color.red;
             print("Attaaaacckkkk!");
+            theRigidbody.AddForce(transform.forward * enemyMovementSpeed, ForceMode.VelocityChange);
+            
+            // this is what we tried to make the enemy not fall over 
+            //GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY;    
+        
         }
         else if (playerTargetDistance < enemyLookDistance)
         {   
             myRender.material.color = Color.yellow;
             print("Be alert!");
+            //rotate towards player in alert state
+            Quaternion rotation = Quaternion.LookRotation(playerTarget.position - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation , rotation, Time.deltaTime * damping);
+            speed = 0f;       
         }
         else
         {
             myRender.material.color = Color.blue;
             print("At ease, soldier.");
+            speed = 1.5f;
         }
         if (goRight == true) // if the thing is going right
         {
