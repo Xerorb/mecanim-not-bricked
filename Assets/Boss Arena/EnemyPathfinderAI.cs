@@ -13,6 +13,7 @@ public class EnemyPathfinderAI : MonoBehaviour
     public float attackDistance;
     public float enemyMovementSpeed;
     public float damping;
+    //public Vector3 com;
     Rigidbody theRigidbody;
     Renderer myRender;
     public float playerTargetDistance;
@@ -22,6 +23,11 @@ public class EnemyPathfinderAI : MonoBehaviour
     {
         myRender = GetComponent<Renderer>();
         theRigidbody = GetComponent<Rigidbody>();
+        //theRigidbody.centerOfMass = com;
+
+        //attempt 2
+        //theRigidbody.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
+        
         playerTargetDistance = 0f;
         enemyLookDistance = 10f;
         attackDistance = 8f;
@@ -40,7 +46,7 @@ public class EnemyPathfinderAI : MonoBehaviour
         {
             myRender.material.color = Color.red;
             print("Attaaaacckkkk!");
-            theRigidbody.AddForce(transform.forward * enemyMovementSpeed, ForceMode.VelocityChange);
+            //theRigidbody.AddForce(transform.forward * enemyMovementSpeed, ForceMode.VelocityChange);
             
             // this is what we tried to make the enemy not fall over 
             //GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY;    

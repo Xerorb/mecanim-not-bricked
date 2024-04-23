@@ -433,7 +433,9 @@
 "Assets/ExplosiveLLC/SuperCharacterController/Code/Examples/PlayerMachineDebug.cs"
 "Assets/ExplosiveLLC/SuperCharacterController/Code/Examples/SimpleStateMachine.cs"
 "Assets/ExplosiveLLC/SuperCharacterController/Code/Math3d.cs"
+"Assets/HandHandler.cs"
 "Assets/Old Torch/Script/FlickLight.cs"
+"Assets/PlayerHandler.cs"
 -langversion:9.0
 
 /deterministic
