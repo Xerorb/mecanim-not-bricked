@@ -18,6 +18,8 @@ public class EnemyPathfinderAI : MonoBehaviour
     Renderer myRender;
     public float playerTargetDistance;
     public Transform playerTarget;
+//intialize vector3
+    private Vector3 moveDirection;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,8 @@ public class EnemyPathfinderAI : MonoBehaviour
         speed = 1.5f;
         interval = 2f;
         lastSwitchTime = 0f;
+        //sets movedirection to new vector object that stores x y z variables
+        moveDirection = new Vector3(5,0,5);
     }
 
     // Update is called once per x amount of time
@@ -46,6 +50,8 @@ public class EnemyPathfinderAI : MonoBehaviour
         {
             myRender.material.color = Color.red;
             print("Attaaaacckkkk!");
+            transform.position += moveDirection * speed * Time.deltaTime;
+            Debug.Log(moveDirection);
             //theRigidbody.AddForce(transform.forward * enemyMovementSpeed, ForceMode.VelocityChange);
             
             // this is what we tried to make the enemy not fall over 

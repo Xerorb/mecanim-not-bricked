@@ -22,7 +22,8 @@ public class HandHandler : MonoBehaviour
             {
             Destroy(collision.collider.transform.parent.gameObject);
             Destroy(collision.collider.gameObject);
-            // GameManager.score += 100;
+            StateManager.score += 100;
+            Debug.Log(StateManager.score + " points!");
             }
         }
     }
