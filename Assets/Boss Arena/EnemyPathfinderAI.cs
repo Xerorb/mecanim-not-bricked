@@ -52,6 +52,7 @@ public class EnemyPathfinderAI : MonoBehaviour
             print("Attaaaacckkkk!");
             transform.position += moveDirection * speed * Time.deltaTime;
             Debug.Log(moveDirection);
+            //we added rigidbody and tried this one again, but it just tips over the enemy
             //theRigidbody.AddForce(transform.forward * enemyMovementSpeed, ForceMode.VelocityChange);
             
             // this is what we tried to make the enemy not fall over 

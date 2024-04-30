@@ -357,6 +357,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Boss Arena/EndGame.cs"
 "Assets/Boss Arena/EnemyPathfinderAI.cs"
+"Assets/Boss Arena/Menus.cs"
 "Assets/Boss Arena/StateManager.cs"
 "Assets/Dynamic Flickering Light/FlickeringLight.cs"
 "Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/ActionHandler.cs"
