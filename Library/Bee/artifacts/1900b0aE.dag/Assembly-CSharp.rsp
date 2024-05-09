@@ -358,6 +358,7 @@
 "Assets/Boss Arena/EndGame.cs"
 "Assets/Boss Arena/EnemyPathfinderAI.cs"
 "Assets/Boss Arena/Menus.cs"
+"Assets/Boss Arena/PlayerHandler.cs"
 "Assets/Boss Arena/StateManager.cs"
 "Assets/Dynamic Flickering Light/FlickeringLight.cs"
 "Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/ActionHandler.cs"
@@ -437,7 +438,6 @@
 "Assets/ExplosiveLLC/SuperCharacterController/Code/Math3d.cs"
 "Assets/HandHandler.cs"
 "Assets/Old Torch/Script/FlickLight.cs"
-"Assets/PlayerHandler.cs"
 -langversion:9.0
 
 /deterministic
