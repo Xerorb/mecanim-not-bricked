@@ -33,7 +33,7 @@ public class EnemyPathfinderAI : MonoBehaviour
         playerTargetDistance = 0f;
         enemyLookDistance = 10f;
         attackDistance = 8f;
-        enemyMovementSpeed = 0.6f;
+        enemyMovementSpeed = 0.3f;
         goRight = false;
         speed = 1.5f;
         interval = 2f;
@@ -50,11 +50,15 @@ public class EnemyPathfinderAI : MonoBehaviour
         {
             myRender.material.color = Color.red;
             print("Attaaaacckkkk!");
-            transform.position += moveDirection * speed * Time.deltaTime;
-            Debug.Log(moveDirection);
+            //transform.position += moveDirection * speed * Time.deltaTime;
+            //Debug.Log(moveDirection);
             //we added rigidbody and tried this one again, but it just tips over the enemy
-            //theRigidbody.AddForce(transform.forward * enemyMovementSpeed, ForceMode.VelocityChange);
-            
+            theRigidbody.AddForce(transform.forward * enemyMovementSpeed, ForceMode.VelocityChange);
+            Quaternion rotation = Quaternion.LookRotation(playerTarget.position - transform.position);
+            rotation.x = transform.rotation.x;
+            rotation.z = transform.rotation.z;
+            transform.rotation = Quaternion.Slerp(transform.rotation , rotation, Time.deltaTime * damping);
+            speed = 0f;
             // this is what we tried to make the enemy not fall over 
             //GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY;    
         

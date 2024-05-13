@@ -26,9 +26,9 @@ public class PlayerHandler : MonoBehaviour
         {
             if (transform.position.y>= collision.collider.transform.position.y)
             {
-            source.PlayOneShot(win, 1.0f);
             Destroy(collision.collider.transform.parent.gameObject);
             Destroy(collision.collider.gameObject);
+            source.PlayOneShot(win);
             // GameManager.score += 100;
             
             }
