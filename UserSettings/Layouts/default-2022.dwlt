@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 334.66666
     height: 427.33334
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 344.66663
     height: 926
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -322,7 +322,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Boss Arena
+    - Assets/Old Torch/Material
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -330,16 +330,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 77
   m_LastFolders:
-  - Assets/Boss Arena
+  - Assets/Old Torch/Material
   m_LastFoldersGridSize: 77
   m_LastProjectPath: C:\Users\li-ju\Documents\GitHub\mecanim-not-bricked
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86690000
-    m_LastClickedID: 27014
-    m_ExpandedIDs: 0000000002690000046900008e690000906900002e6a000000ca9a3bffffff7f
+    m_SelectedIDs: 3a6c0000
+    m_LastClickedID: 27706
+    m_ExpandedIDs: 000000000c690000a0690000ea6a0000ec6a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000269000004690000
+    m_ExpandedIDs: 000000000c6900000e690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000000000009a6a000028670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -460,8 +460,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e5e0000
-      m_LastClickedID: 24126
+      m_SelectedIDs: a25d0000
+      m_LastClickedID: 0
       m_ExpandedIDs: 2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -816,9 +816,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4269013, y: 0.5040138, z: 0.3619268}
+    m_Target: {x: -1.3658495, y: -9.950001, z: 6.6446543}
     speed: 2
-    m_Value: {x: -1.4269013, y: 0.5040138, z: 0.3619268}
+    m_Value: {x: -1.3658496, y: -9.950001, z: 6.6446543}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -864,13 +864,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.039450265, y: 0.91559005, z: -0.3892656, w: 0.09279034}
+    m_Target: {x: 0.500729, y: 0.39174223, z: -0.27146932, w: 0.7225718}
     speed: 2
-    m_Value: {x: 0.03945028, y: 0.9155904, z: -0.38926575, w: 0.09279038}
+    m_Value: {x: 0.5010809, y: 0.39408225, z: -0.27425918, w: 0.7199993}
   m_Size:
-    m_Target: 2.682207
+    m_Target: 2.4837043
     speed: 2
-    m_Value: 2.682207
+    m_Value: 2.484636
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1103,7 +1103,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 76
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
